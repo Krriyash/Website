@@ -1,0 +1,73 @@
+.navbar {
+    background-color: transparent;
+    padding: 4vh;
+    margin: -1lh;
+    position: relative;
+    top: 1vh;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 40px;
+  }
+  
+  .navbar ul li a {
+    color: #303030;
+    text-decoration: none;
+    font-size: 1.7vh;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: 1.5%;
+    transform: translate(-50%, -50%);
+    font-size: 5vh;
+    text-align: center;
+    font-family: 'Emilys Candy', cursive;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0vh;
+    width: 100%;
+    color: #000000;
+    background-color: none;
+    padding: 0px 0;
+    text-align: center;
+    font-size: 1.7vh;
+  }
+  
+  /* Horizontal Scroll Hiding */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Gradient Background */
+  body {
+    background: linear-gradient(to bottom, #F9FBE7, #F0EDD4, #ECCDB4, #FEA1A1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+body {
+    background-color: #F9FBE7; /* Replace with the background color of your gradient */
+}
+    
