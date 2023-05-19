@@ -1,0 +1,238 @@
+.navbar {
+  background-color: #ffc4c9;
+  padding: 4vh;
+  margin: -1lh;
+  position: relative;
+  top: 1vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 40px;
+}
+
+.navbar ul li a {
+  color: #303030;
+  text-decoration: none;
+  font-size: 1.7vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar ul li a:hover {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 1.5%;
+  transform: translate(-50%, -50%);
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Emilys Candy', cursive;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0vh;
+  width: 100%;
+  color: #000000;
+  background-color: none;
+  padding: 0px 0;
+  text-align: center;
+  font-size: 1.7vh;
+}
+
+.full-screen-image {
+  position: absolute;
+  top: 9.8vh;
+  width: 100%;
+  left: 0vh;
+  height: auto;
+  object-fit: cover;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+/* 1 */
+
+.poem1 {
+  font-size: 4vh;
+  position: relative;
+  left: 3vh;
+  top: 6vh;
+  color: #5a0000;
+  font-family: 'Great Vibes', serif;
+  transition: color 0.3s;
+  }
+
+.poem1:hover {
+  color: transparent;
+  animation-name: text-delay;
+  animation-duration: 2s; /* Adjust the duration as per your preference */
+  animation-fill-mode: forwards;
+  }
+
+.poem1:hover::before {
+  content: 'I love you so much dummy';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 4vh;
+  color: #5a0000;
+  opacity: 1; /* Initial opacity set to 0 */
+  }
+
+@keyframes text-delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* 2 */
+
+.poem2 {
+  font-size: 4vh;
+  position: relative;
+  left: 40vh;
+  top: 6vh;
+  color: #5a0000;
+  font-family: 'Great Vibes', serif;
+  transition: color 0.3s;
+  }
+
+.poem2:hover {
+  color: transparent;
+  animation-name: text-delay;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  }
+
+.poem2:hover::before {
+  content: 'Youre mine.';
+  position: absolute;
+  top: 0vh;
+  left: 0vh;
+  font-size: 4vh;
+  color: #5a0000;
+  opacity: 1;
+  }
+
+@keyframes text-delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 3 */
+
+.poem3 {
+  font-size: 4vh;
+  position: relative;
+  left: 80vh;
+  top: 6vh;
+  color: #5a0000;
+  font-family: 'Great Vibes', serif;
+  transition: color 0.3s;
+  }
+
+.poem3:hover {
+  color: transparent;
+  animation-name: text-delay;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  }
+
+.poem3:hover::before {
+  content: 'Its just going to be us';
+  position: absolute;
+  top: 0vh;
+  left: 0vh;
+  font-size: 4vh;
+  color: #5a0000;
+  opacity: 1;
+  }
+
+@keyframes text-delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 4 */
+.poem4 {
+  font-size: 4vh;
+  position: relative;
+  left: 120vh;
+  top: 6vh;
+  color: #5a0000;
+  font-family: 'Great Vibes', serif;
+  transition: color 0.3s;
+  }
+
+.poem4:hover {
+  color: transparent;
+  animation-name: text-delay;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  }
+
+.poem4:hover::before {
+  content: "Forever.";
+  position: absolute;
+  top: 0vh;
+  left: 0vh;
+  font-size: 4vh;
+  color: #5a0000;
+  opacity: 1;
+  }
+
+@keyframes text-delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Disable text highlighting */
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Horizontal Scroll Hiding */
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F9FBE7; /* Replace with the background color of your gradient */
+}
